@@ -1,0 +1,124 @@
+:root {
+  --black-color: #000;
+  --white-color: #fff;
+  --btn-color: #6a85e3;
+  --bg-color: #eaeaea;
+}
+
+body {
+  font-weight: 400;
+  font-family: 'Vollkorn', serif;
+  letter-spacing: 0.03em;
+  line-height: 1.5;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+.container {
+  width: 1110px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin: 0 auto;
+}
+
+img {
+  display: block;
+}
+
+/*Header-start*/
+
+.header {
+  padding-top: 72px;
+}
+
+.nav {
+  margin-bottom: 72px;
+}
+
+.menu-list {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.link-mail {
+  font-size: 16px;
+  color: var(--black-color);
+  text-decoration: none;
+}
+
+.main {
+  display: flex;
+  justify-content: space-between;
+}
+
+.hero-intro {
+  margin-bottom: 56px;
+}
+
+.hero-item p {
+  font-size: 18px;
+  color: var(--black-color);
+}
+
+.top-desc {
+  margin-bottom: 21px;
+}
+
+.hero-title {
+  font-weight: 400;
+  font-size: 45px;
+  text-transform: uppercase;
+  margin-bottom: 21px;
+}
+
+.bottom-desc {
+  margin-bottom: 21px;
+}
+
+.btn-hero {
+  display: inline-block;
+  padding: 18px 29px;
+  font-weight: 700;
+  background: var(--btn-color);
+  color: var(--white-color);
+}
+
+.hero-intro {
+  margin-bottom: 98px;
+}
+
+.block-hero-bottom {
+  width: 441px;
+  background-color: var(--bg-color);
+  padding: 30px 30px 30px 30px;
+}
+
+.title-bottom {
+  font-weight: 700;
+  font-size: 15px;
+  color: var(--black-color);
+  margin-bottom: 17px;
+}
+
+.des-bottom {
+  font-size: 15px;
+  color: var(--black-color);
+}
